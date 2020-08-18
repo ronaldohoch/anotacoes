@@ -33,3 +33,8 @@ ng new appName --directory ./
 #### To periodically update the repo on GitHub with what you have in GitLab
 ``` git fetch -p origin ```
 ```git push --no-verify --mirror```
+
+# CI/CD Digital Ocean with SSH
+[https://github.com/appleboy/scp-action](https://github.com/appleboy/scp-action)
+
+[https://github.com/appleboy/ssh-action](https://github.com/appleboy/ssh-action)
