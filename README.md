@@ -38,3 +38,19 @@ ng new appName --directory ./
 [https://github.com/appleboy/scp-action](https://github.com/appleboy/scp-action)
 
 [https://github.com/appleboy/ssh-action](https://github.com/appleboy/ssh-action)
+
+# Javascript geral
+
+### Função para fazer embed de script asyncronos
+``` javascript
+    //Cria o elemento script
+    let scriptTeste = document.createElement('script');
+    //Adicionar o endereço do script externo
+    scriptTeste.setAttribute('src','https://code.jquery.com/jquery-3.5.1.min.js')
+    //Adiciona o script no body, pode ser no head também, uando document.head...
+    document.body.appendChild(scriptTeste);
+    //Função que roda após o script ser adicionado na página
+    rdScript.onload=()=>{
+        console.log($.fn.jquery); //output 3.5.1
+    }
+```
