@@ -54,3 +54,8 @@ ng new appName --directory ./
         console.log($.fn.jquery); //output 3.5.1
     }
 ```
+
+# PWA
+[https://itnext.io/pwa-splash-screen-and-icon-generator-a74ebb8a130](https://itnext.io/pwa-splash-screen-and-icon-generator-a74ebb8a130)
+[https://web.dev/maskable-icon/](https://web.dev/maskable-icon/)
+[https://maskable.app/editor](https://maskable.app/editor)
